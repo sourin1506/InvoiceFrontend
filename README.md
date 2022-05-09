@@ -3,7 +3,7 @@
 Its Backend files have been made using spring-boot and it available in this repo
 https://github.com/sourin1506/InvoiceBackend.git
 
-It ML file which is using flask to send the predicted data to the frontend is present in this Repo
+Its ML file which is using flask to send the predicted data to the frontend is present in this Repo
 https://github.com/sourin1506/InvoiceML.git
 
 # Getting Started with Create React App 
