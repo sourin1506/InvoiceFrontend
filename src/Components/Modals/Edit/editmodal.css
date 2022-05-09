@@ -1,0 +1,81 @@
+.editmodalbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2a3e4c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 24px #00000029;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  box-shadow: 24;
+}
+
+.editmodalheader {
+  display: flex;
+  justify-content: space-between;
+  background: #2a3e4c 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  padding: 24px;
+  opacity: 1;
+  flex-grow: 1;
+}
+.editheader {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+.editmodalfooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  flex-grow: 1;
+  padding: 5px;
+  align-items: center;
+  height: 50px;
+}
+.editmodalcontent {
+  display: flex;
+  justify-content: center;
+
+  flex-grow: 2;
+}
+
+.editlabels {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editforminput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.editlabeltext {
+  text-align: left;
+  font: normal normal normal 15px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97a1a9;
+  margin-top: 15px;
+  height: 30px;
+  display: flex;
+  width: 120px;
+}
+.editinputbox {
+  width: 200px;
+  background: #283a46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 5px;
+  opacity: 1;
+  height: 25px;
+  margin-top: 15px;
+  color: "white";
+}
+.editfooterbutton {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  margin-right: 20px;
+}

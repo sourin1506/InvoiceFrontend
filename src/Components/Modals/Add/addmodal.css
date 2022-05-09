@@ -1,0 +1,99 @@
+.addmodalbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2a3e4c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 24px #00000029;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  box-shadow: 24;
+}
+
+.addmodalheader {
+  display: flex;
+  justify-content: space-between;
+  background: #2a3e4c 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  padding: 24px;
+  opacity: 1;
+  flex-grow: 1;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+.addmodalfooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  flex-grow: 1;
+  padding: 5px;
+  align-items: center;
+  height: 50px;
+}
+.addmodalcontent {
+  display: flex;
+  flex-grow: 2;
+}
+.content1 {
+  display: flex;
+  gap: 20px;
+  padding: 18px;
+  width: 360px;
+}
+.content2 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  width: 300px;
+}
+.formlabels1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forminput1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formlabels2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.forminput2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.labeltext {
+  text-align: left;
+  font: normal normal normal 15px/24px Ubuntu;
+  letter-spacing: 0.19px;
+  color: #97a1a9;
+  margin-top: 15px;
+  height: 30px;
+  display: flex;
+  width: 120px;
+}
+.forminput {
+  width: 200px;
+  background: #283a46 0% 0% no-repeat padding-box;
+  border: 1px solid #356680;
+  border-radius: 5px;
+  opacity: 1;
+  height: 25px;
+  margin-top: 15px;
+}
+.footerbutton {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-right: 20px;
+}

@@ -1,0 +1,28 @@
+.TableOutline {
+  width: 96vw;
+  margin: auto;
+  height: 65vh;
+}
+.scrollbody {
+  overflow-y: scroll;
+  height: 58vh;
+  overflow-x: hidden;
+}
+.scrollbody::-webkit-scrollbar {
+  width: 6px;
+  height: 135px;
+}
+
+/* Track */
+.scrollbody::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+/* Handle */
+.scrollbody::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 8px;
+  background: #61707b 0% 0% no-repeat padding-box;
+}

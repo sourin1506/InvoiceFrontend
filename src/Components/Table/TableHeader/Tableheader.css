@@ -1,0 +1,51 @@
+.HeaderContainer1
+{
+    border: 1px solid black;
+    width: 100px;
+}
+.TableHeader
+{
+   
+  
+    width:95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.leftbuttons
+{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.rightbuttons
+{
+    width: 550px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.searchwrap
+{
+        width: 250px;
+        background:  #283A46 0% 0% no-repeat padding-box;
+        border:  1px solid #356680;
+        border-radius: 10px;
+        opacity: 1;
+        text-align: left;
+        font: normal normal normal 15px/12px Ubuntu;
+        letter-spacing: 0px;
+        color: #97A1A9;
+        opacity: 1;
+      
+}
+.Predict
+{
+    
+/* UI Properties */
+background: #14AFF1 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}

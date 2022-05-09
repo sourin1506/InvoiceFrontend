@@ -1,0 +1,31 @@
+.CompanyLogo
+{
+  
+
+display: flex;
+margin-left: 22vw;
+
+}
+.Companyimg
+{
+    
+    width: 14vw;/* 15vw=235px*/
+    height: 6vh;
+    /* UI Properties */
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.Header
+{
+ 
+    display: flex;
+    
+    padding: 10px;
+  
+}
+.SideLogo
+{
+    
+    align-self: flex-start;
+}
